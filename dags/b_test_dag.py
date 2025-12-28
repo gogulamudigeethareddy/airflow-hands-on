@@ -11,9 +11,9 @@ default_args = {
 }
 
 with DAG(
-	'a_test_dag',
+	'b_test_dag',
 	default_args=default_args,
-	description='A simple test DAG',
+	description='A test DAG',
 	schedule=None,
 	start_date=datetime(2023, 1, 1),
 	catchup=False,
